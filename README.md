@@ -1,2 +1,4 @@
 # NLP-on-PUBMED-articles
-Combination of fetching PUBMED articles, named entity recognition and relation extraction, to construct biomedical knowledge graphs.
+"Combination of fetching PUBMED articles, named entity recognition and relation extraction, to construct biomedical knowledge graphs."
+
+In this project, we will start by downloading biomedical articles from PubMed. The PubMed provides an API to retrieve data as well as a FTP site, where daily updates are available. Next, we will run the data through an NLP pipeline to extract relationships between biomedical entities. There are many open-source named entity recognition models out there, but unfortunately, I haven't come across any biomedical relation extraction models that don't require manual training. We will be using the John Snow Labs Healthcare models. John Snow Labs offer free models for recognizing entities and extracting relations from news-like text. However, the biomedical models are not open-source. Luckily for us, they offer a free 30-day trial period for healthcare models. To follow along with the examples in this post, we will need to start the free trial and obtain the license keys.
